@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# API and ML model cache
+api_cache/
+ml_model_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Data files (uncomment if you don't want to include large data files)
+# data/*.csv
+# data/*.xls
+
+# VS Code
+.vscode/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
