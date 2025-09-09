@@ -20,7 +20,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Configuration
-TMDB_API_KEY = "acbafe412afa10d645c49fe59fd663c4"
+TMDB_API_KEY = os.getenv('API_KEY', 'your_api_key_here')
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 CACHE_DIR = "api_cache"
 ML_CACHE_DIR = "ml_model_cache"
