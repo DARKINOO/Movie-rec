@@ -16,8 +16,8 @@ venv/
 ENV/
 
 # Data files (uncomment if you don't want to include large data files)
-# data/*.csv
-# data/*.xls
+data/*.csv
+data/*.xls
 
 # VS Code
 .vscode/
